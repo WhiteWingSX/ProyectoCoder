@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Nucio - Registrar cuenta</title>
+</head>
+<body>
+<!--Header-->
+<header class="head">
+    <div class="headLogo">
+        <div class="logo">
+            <!--Crear logo de pagina-->
+            <img src="../assets/img/LogoTest.jpg" alt="test_img" style="width: 6em; height: 3em">
+        </div>
+        <div>
+            <a href="./iniciar.html" class="btn-registro-header">Inicia Sesion</a>
+        </div>
+    </div>
+
+    <nav style="background-color: #439a28">
+        <ul class="navbar" type="none">
+            <li><a href="../index.html" class="navBarItem">Inicio</a></li>
+            <li><a href="./dieta.html" class="navBarItem">Dieta</a></li>
+            <li><a href="./ejercicios.html" class="navBarItem">Ejercicios</a></li>
+            <li><a href="./libros.html" class="navBarItem">Libros</a></li>
+            <li><a href="./nosotros.html" class="navBarItem">Nosotros</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--contenido principal-->
+<main style="flex: 1" class="spaceInicio">
+    <section class="spaceInicio">
+        <article class="division">
+            <img
+                    src="../assets/img/testImg.png"
+                    alt="test_img"
+                    style="width: 100%; height: 45vh"
+            >
+        </article>
+
+        <article class="division">
+            <h1 style="text-align: center">REGISTRATE</h1>
+
+            <form action="/submit" method="post">
+                <div class="orderRegister">
+                    <label for="nombre">Usuario:</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+
+                <div class="orderRegister">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+
+                <div class="orderRegister">
+                    <label for="repeatPassword">Repite Contraseña:</label>
+                    <input type="repeatPassword" name="repeatPassword" id="repeatPassword">
+                </div>
+
+                <div style="display: flex; justify-content: center; align-items: center">
+                    <input  type="submit" value="CREAR CUENTA" class="btn-ingreso">
+                </div>
+
+            </form>
+            <div class="separador">
+                <hr style="width: 80%; margin: 0 auto;">
+                o
+                <hr style="width: 80%; margin: 0 auto;">
+            </div>
+
+            <article class="optionLogin">
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam!</span>
+
+                <div class="otherLogin">
+                    <img src="../assets/img/LogoTest.jpg" alt="test_img" style="width: 30px; height: 30px; margin: 5px 10px">
+                    <img src="../assets/img/LogoTest.jpg" alt="test_img" style="width: 30px; height: 30px; margin: 5px 10px">
+                </div>
+
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam!</span>
+
+                <div style="display: flex; justify-content: center; align-items: center">
+                    <a href="./iniciar.html" class="btn-crear">INGRESA CON TU CUENTA</a>
+                </div>
+
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam!</small>
+            </article>
+
+        </article>
+    </section>
+</main>
+
+<!--footer-->
+<footer class="foot">
+    <div class="footItems">
+        <div class="redes">
+            <h3>Visita nuestras Redes</h3>
+            <ul class="redFooter" type="none">
+                <li>
+                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                        <img src="../assets/img/LogoTest.jpg" alt="test_img" style="width: 30px; height: 30px">
+                    </a>
+                </li>
+                <li>
+                    <a href=https://x.com/?lang=es" target="_blank">
+                        <img src="../assets/img/LogoTest.jpg" alt="test_img" style="width: 30px; height: 30px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/?hl=es" target="_blank">
+                        <img src="../assets/img/LogoTest.jpg" alt="test_img" style="width: 30px; height: 30px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="information">
+            <h3>Informacion rescatada:</h3>
+            <ul>
+                <li><a href="https://cuidateplus.marca.com/alimentacion/dietas/2022/04/23/5-dietas-recomendaria-nutricionista-179704.html" target="_blank">Link informacion citada</a></li>
+                <li><a href="https://www.amazon.es/dieta-Libros/s?k=dieta&rh=n%3A599364031" target="_blank">Link informacion citada</a></li>
+                <li><a href="https://medlineplus.gov/spanish/howmuchexercisedoineed.html" target="_blank">Link informacion citada</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <span style="display: flex; justify-content: center; padding: 10px; font-size: 12px">
+            Proyecto creado para el curso Coder House "Desarrollo Web" por Bastian Rozas ©
+        </span>
+
+</footer>
+</body>
+</html>
