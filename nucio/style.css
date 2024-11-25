@@ -1,3 +1,6 @@
+/*Boostrap Icons*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 /*reset css*/
 
 * {
@@ -75,19 +78,17 @@ h3 {
     align-items: center;
 }
 
-.navbar {
-    display: flex;
-    justify-content: end;
-    font-size: 18px;
-    padding: 5px 15px;
+.navbar .nav-link {
+    color: #c4c4c4;
 }
 
-.navBarItem {
-    color: #d8d8d8;
+.navbar .nav-link:hover {
+    color: #ffffff;
 }
 
-.btn-inicio-header {
-    margin: 0px 5px;
+.nav-link.active {
+    color: #ffffff !important;
+    border-bottom: 1px solid white;
 }
 
 .btn-registro-header {
@@ -100,22 +101,6 @@ h3 {
     border-radius: 5px;
 }
 
-/*.btn-registro-header:hover {*/
-/*    background-color: #1a3969;*/
-/*    color: #ffffff;*/
-/*}*/
-
-/*.btn-registro-header:active {*/
-/*    background-color: #295a9a;*/
-/*    color: #ffffff;*/
-/*    cursor: pointer;*/
-/*}*/
-
-.select {
-    text-decoration: underline;
-    color: #ffffff;
-}
-
 /*seccion de pie de pagina*/
 
 .foot {
@@ -124,27 +109,12 @@ h3 {
     padding: 0px 15px;
 }
 
-.footItems {
-    margin-top: 10px;
-    padding: 10px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .redes {
     display: grid;
     flex: auto;
     justify-content: center;
     text-align: center;
     padding-right: 10px;
-    border-right: 1px solid #ffffff;
-}
-
-.redFooter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
 }
 
 .information {
@@ -248,13 +218,6 @@ footer {
     text-align: center;
 }
 
-.otherLogin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-}
-
 .btn-ingreso {
     margin: 10px;
     width: 80%;
@@ -311,6 +274,3 @@ footer {
     padding: 5px 50px;
     display: grid;
 }
-
-
-
