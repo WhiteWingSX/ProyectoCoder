@@ -44,8 +44,8 @@ h3 {
 .card {
     margin: 10px;
     padding: 7px;
-    width: 275px;
-    height: 100%;
+    width: 90%;
+    height: 335px;
     border: 2px solid #000000;
     border-radius: 17px;
 }
@@ -132,23 +132,9 @@ footer {
 }
 
 /*main*/
-.space {
-    margin-bottom: 10px;
-}
-
 .pagina_1_encontraras {
     width: 9em;
     height: 9em;
-}
-
-.seccion_0 {
-    padding: 10px 70px;
-    text-align: start;
-}
-
-.seccion_1 {
-    padding: 10px 70px;
-    display: flex;
 }
 
 .seccion_2 {
@@ -158,18 +144,6 @@ footer {
 }
 
 /*Pagina dieta*/
-
-.spaceDieta {
-    padding: 10px 70px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
-.seccion_4 {
-    padding: 10px 0px;
-    display: flex;
-}
 
 /*Pagina Ejercicios*/
 
@@ -186,7 +160,7 @@ footer {
 
 .LetterCard {
     margin: 17px;
-    padding: 10px 70px;
+    padding: 10px 10px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -203,10 +177,6 @@ footer {
     align-items: center;
 }
 
-.division {
-    width: 50%;
-}
-
 .order {
     padding: 15px 50px;
     display: grid;
@@ -221,46 +191,19 @@ footer {
 .btn-ingreso {
     margin: 10px;
     width: 80%;
-    height: 30px;
-    background-color: #378021;
-    color: #ffffff;
-    border-radius: 10px;
-    font-size: 15px;
-}
-
-.btn-ingreso:hover {
-    background-color: #2c691b;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.btn-ingreso:active {
-    background-color: #429a29;
-    color: #ffffff;
-    cursor: pointer;
+    height: 35px;
 }
 
 .btn-crear {
     margin: 10px;
-    width: 60%;
+    width: 63%;
     height: 25px;
-    background-color: #214780;
-    color: #ffffff;
-    border: 2px solid #000000;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn-crear:hover {
-    background-color: #1b3d69;
-    color: #ffffff;
-    cursor: pointer;
-}
 
-.btn-crear:active {
-    background-color: #295a9a;
-    color: #ffffff;
-    cursor: pointer;
-}
 
 .separador {
     margin: auto;
